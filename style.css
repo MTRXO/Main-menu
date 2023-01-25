@@ -1,3 +1,11 @@
-.mainmenu{
-    text-align: center;
+.mainmenu {
+
+    width: auto;
+    height: auto;
+    border-radius: 12px;
+    background-color: aqua;
+    position: relative;
+
+
+
 }

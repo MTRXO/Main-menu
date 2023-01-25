@@ -1,10 +1,27 @@
-.mainmenu {
+li {
+    display: inline-block;
+}
 
+ul {
     width: auto;
-    height: auto;
+    height: 50px;
+    text-align: center;
+    background-color: bisque;
     border-radius: 12px;
+}
+
+a {
+    width: 20px;
+    height: 40px;
     background-color: aqua;
-    position: relative;
+    text-decoration: none;
+    border-radius: 10px;
+    text-align: center;
+    font-size: x-large;
+    padding-left: 50px;
+    padding-right: 50px;
+    line-height: 50px;
+
 
 
 

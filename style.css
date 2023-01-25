@@ -2,12 +2,15 @@ li {
     display: inline-block;
 }
 
+
 ul {
+    list-style: none;
     width: auto;
     height: 50px;
     text-align: center;
     background-color: bisque;
     border-radius: 12px;
+    position: relative;
 }
 
 a {
@@ -23,6 +26,13 @@ a {
     line-height: 50px;
 
 
+}
 
+a:hover {
+    background-color: blue;
+}
 
+.child {
+    display: inline-block;
+    position: relative;
 }

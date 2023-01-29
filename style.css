@@ -1,0 +1,67 @@
+ul {
+    list-style: none;
+    text-align: center;
+    align-items: center;
+
+
+}
+
+ul li {
+    display: inline-block;
+    position: relative;
+    padding: 2%;
+
+
+}
+
+ul li a {
+    display: block;
+    padding: 20px 25px;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    font-size: 30px;
+
+
+
+}
+
+ul li ul.dropdown li {
+    display: block;
+
+
+
+}
+
+ul li ul.dropdown {
+    width: 100%;
+    background: #D4E09B;
+    position: absolute;
+    z-index: 999;
+    display: none;
+    text-align: center;
+    margin-right: 100px;
+
+
+}
+
+ul li a:hover {
+    background: #9DB91B;
+    text-align: center;
+
+
+}
+
+ul li:hover ul.dropdown {
+    display: block;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.menu-bar {
+    background-color: aqua;
+    width: auto;
+    height: auto;
+    background: #D4E09B;
+    border-radius: 12px;
+}

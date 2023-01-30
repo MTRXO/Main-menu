@@ -57,7 +57,7 @@ ul li ul.dropdown {
 }
 
 ul li a:hover {
-    background: #A2A29B;
+    background: #999993;
     text-align: center;
 
 
@@ -95,7 +95,7 @@ ul li:hover ul.dropdown {
 }
 
 .ofert:hover {
-    border-color: #C6C5BD;
+    border-color: #c7c6c0;
 
 }
 
@@ -113,4 +113,13 @@ ul li:hover ul.dropdown {
         'wght' 400,
         'GRAD' 0,
         'opsz' 48
+}
+
+.foot {
+    width: auto;
+    height: auto;
+    background-color: #999993;
+    font-size: auto;
+    border-radius: 5px;
+    text-align: center;
 }
